@@ -1,0 +1,14 @@
+<section class="w-100 p-4 pb-4 d-flex justify-content-center flex-column">
+    <div class="pokemon-grid">
+      <div class="card" *ngFor="let pokemon of pokemonList">
+        <img src="{{ pokemon.sprites.front_default }}" class="card-img-top" alt="{{ pokemon.name }}" />
+        <div class="card-body text-center">
+          <h5 class="card-title text-capitalize">{{ pokemon.name }}</h5>
+          <p class="card-text">Description.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  

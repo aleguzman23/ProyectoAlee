@@ -1,0 +1,27 @@
+.bg {
+    background: linear-gradient(to bottom, red 40%, black 40%, black 60%, white 60%);
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.custom-card {
+    background-color: black; 
+    color: white; 
+    
+  }
+
+
+.btn-custom {
+    background-color: white;
+    color: black;
+    border: 1px solid gray; 
+    box-shadow: 2px 2px 4px gray; 
+    transition: transform 0.2s; 
+  }
+  
+  .btn-custom:hover {
+    transform: translate(2px, 2px); 
+  }
+  
+  
